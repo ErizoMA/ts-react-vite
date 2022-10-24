@@ -54,11 +54,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-ul,
-h4 {
-  margin: 0;
-  padding: 0;
-}
 
 img {
   border-radius: 50%;
@@ -72,8 +67,7 @@ ul li {
   border-radius: 8px;
   margin-bottom: 16px;
   width: 200px;
-  padding: 8px;
-  min-height: 200px;
+  min-height: 180px;
   display: grid;
   place-items: center;
 }
@@ -85,7 +79,7 @@ form {
   border: 1px solid #eee;
   padding: 16px 16px;
   border-radius: 16px;
-  max-height: 250px;
+  max-height: 300px;
   margin-top: 10px;
 }
 
